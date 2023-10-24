@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "movie-app",
+    "slug": "movie-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/netlifxLogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/netflix.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "animation": {
+        "type": "fade",
+        "animationDuration": 2000
+      }
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/netlifxLogo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
